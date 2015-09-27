@@ -1,3 +1,7 @@
 hello ryan
+<<<<<<< HEAD
 
 This is the working copy branch.
+=======
+why, hello daniel
+>>>>>>> 798299b83ec71f79e64387797e435654d9decf73
