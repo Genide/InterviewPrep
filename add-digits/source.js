@@ -8,12 +8,12 @@ var addDigits = function(num) {
 	if (num < 10)
 		return num;
 	else {
-		while(Math.floor(num / 10 !== 0)) {
+		while(num !== 0) {
 			total += num % 10;
-			num = Math.floor(num / 10);
+			num = Math.trunc(num / 10);
 		}
 		return addDigits(total);
 	}
 };
 
-console.log(addDigits(12345));
+console.log(addDigits(357));
